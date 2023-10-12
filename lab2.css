@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://w.forfun.com/fetch/d5/d50f94a64b8df9c2e4814e782e75a504.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #fff;
+}
+
+.page:not(.active) {
+    display: none;
+}
+
+.page form {
+    width: 100%;
+}
+
+.page input[type="text"],
+.page input[type="email"],
+.page input[type="password"],
+.page input[type="date"],
+.page input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.page button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page button:hover {
+    background-color: #0056b3;
+}
+
+.page input[type="radio"],
+.page input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.page a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.page a:hover {
+    text-decoration: underline;
+}
